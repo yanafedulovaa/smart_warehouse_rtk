@@ -39,6 +39,6 @@ class DashboardCurrentView(APIView):
             'statistics': stats
         })
 
-def dashboard_page(request):
-    """Рендерит простую HTML-страницу мониторинга"""
-    return render(request, "dashboard/dashboard.html")
+# def dashboard_page(request):
+#     """Рендерит простую HTML-страницу мониторинга"""
+#     return render(request, "dashboard/dashboard.html")
